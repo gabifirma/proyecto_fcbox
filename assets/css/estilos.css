@@ -23,7 +23,7 @@ body {
 
 /* color y alineación de la etiqueta h1*/
 h1 {
-    color: black;
+    color: white;
     font-weight: bold;
     /* negrito o fuerte*/
     text-align: center;
@@ -69,10 +69,9 @@ hay que probar esta funcionalidad */
 }
 
 footer {
-    height: auto;
     background-color: white;
-    padding: 10px 20px 30px 40px;
-    margin: 10px 200px;
+    padding: 10px 20px 30px center;
+    margin: 40px 200px;
     text-align: center;
     font-weight: bolder;
 
@@ -129,6 +128,7 @@ h3 {
 
 .card {
     background-color: black;
+    align-self: center;
 
     .card-body {
         background-color: white;

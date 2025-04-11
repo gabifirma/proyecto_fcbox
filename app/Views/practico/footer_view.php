@@ -3,13 +3,13 @@
     <section>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+                <a class="nav-link active" href="https://www.facebook.com/?locale=es_LA" target="_blanck"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.youtube.com/?feature=ytca"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+                <a class="nav-link" href="https://x.com/?lang=es" target="_blanck"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a class="nav-link" href="https://www.instagram.com/" target="_blanck"><i class="fa-brands fa-instagram fa-2xl"></i></a>
             </li>
         </ul>
     </section>
