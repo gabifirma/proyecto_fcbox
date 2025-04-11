@@ -1,0 +1,140 @@
+/*ID´s llevan # y son unicos por elemento*/
+/*las clases son repetibles y llevan . */
+
+p {
+    font-family: verdana;
+    /*tipo de letras*/
+    text-align: center;
+    /*alineación del texto*/
+    color: black;
+    /*color de la fuente*/
+    font-size: 24 px;
+    /*tamaño de la fuente*/
+    font-style: italic;
+    /*estilo */
+    font-weight: bold;
+    /* negrito o fuerte*/
+}
+
+body {
+    background-color: #2f2f2f;
+    /*color de fondo del body*/
+}
+
+/* color y alineación de la etiqueta h1*/
+h1 {
+    color: black;
+    font-weight: bold;
+    /* negrito o fuerte*/
+    text-align: center;
+    /*alineación*/
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    margin: 5px 5px;
+    text-decoration: none;
+    color: rgb(7, 21, 143);
+    padding: 14px 20px;
+    display: block;
+}
+
+a:hover {
+    color: #32cd32;
+    font-weight: bolder;
+}
+
+/*Eliminamos los márgenes y paddings que agrega el navegador por defecto, en la actualidad
+hay que probar esta funcionalidad */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    background-color: rgb(99, 8, 99);
+    margin: 20px;
+}
+
+.parrafo {
+    background-color: rgb(99, 8, 99);
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    padding-right: 300px;
+}
+
+footer {
+    height: auto;
+    background-color: white;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 200px;
+    text-align: center;
+    font-weight: bolder;
+
+    i {
+        color: #32cd32;
+    }
+
+    i:hover {
+        color: black;
+        font-weight: bolder;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: start;
+    color: black;
+    font-size: medium;
+    font-family: Arial;
+    font-weight: inherit;
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    /* Ajusta el valor según sea necesario */
+    object-fit: cover;
+    /* Esto hace que las imágenes se ajusten sin distorsionarse */
+}
+
+h3 {
+    font-family: Verdana;
+    /*tipo de letras*/
+    color: black;
+    /*color de la fuente*/
+    font-size: 30px;
+    /*tamaño de la fuente*/
+    font-style: italic;
+    /*estilo */
+    font-weight: bolder;
+    /* negrito o fuerte*/
+}
+
+.section-barra {
+    background-color: #32cd32;
+}
+
+.card img {
+    width: 333px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: black;
+
+    .card-body {
+        background-color: white;
+    }
+}
+
+.card-title {
+    color: black;
+}
