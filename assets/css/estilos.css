@@ -126,12 +126,22 @@ h3 {
     object-fit: cover;
 }
 
-.card {
+#card1 .card {
     background-color: black;
     align-self: center;
 
+    h5 {
+        font-size: small;
+        font-weight: bolder;
+    }
+
+    p {
+        font-size: small;
+    }
+
     .card-body {
         background-color: white;
+
     }
 }
 

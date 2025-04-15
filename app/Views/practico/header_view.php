@@ -22,10 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="<?php echo base_url(); ?>">Principal</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comercialización</a>
+              <a class="nav-link active"  href="<?php echo base_url(); ?>">Principal</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,6 +34,8 @@
                 <li><a class="dropdown-item" href="#">Contacto</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Términos y Usos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercialización</a></li>
               </ul>
             </li>
           </ul>
