@@ -29,9 +29,9 @@
                 Menú
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="<?php echo base_url('nosotros'); ?>">Nosotros</a></li>
+                <li><a class="dropdown-item" href="<?php echo base_url('quienes_somos'); ?>">Quienes Somos</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Contacto</a></li>
+                <li><a class="dropdown-item" href="<?php echo base_url('contacto'); ?>">Contacto</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Términos y Usos</a></li>
                 <li><hr class="dropdown-divider"></li>
