@@ -23,13 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('principal'); ?>">Principal</a>
+              <a class="nav-link" href="<?php echo base_url('/'); ?>">Principal</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Galería</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('nosotros'); ?>">Nosotros</a>
+              <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quienes somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Términos y Usos</a>
