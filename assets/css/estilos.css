@@ -44,10 +44,13 @@ hay que probar esta funcionalidad */
 
 footer {
     background-color: white;
-    padding: 10px 20px 30px center;
-    margin: 40px 200px;
+    padding: 10px 20px 30px; /* Eliminé 'center', ya que no es válido en padding */
+    margin: 0; /* Asegura que no haya márgenes que reduzcan el ancho */
     text-align: center;
     font-weight: bolder;
+    width: 100%; /* Hace que ocupe todo el ancho de la pantalla */
+    bottom: 0; /* Lo coloca al final de la pantalla */
+    left: 0; /* Asegura que comience desde la izquierda */
 
     i {
         color: #32cd32;

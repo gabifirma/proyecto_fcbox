@@ -19,4 +19,8 @@ class Home extends BaseController
     {
         return view('practico/header_view').view('contenido/contacto').view('practico/footer_view');
     }
+    public function terminos(): string
+    {
+        return view('practico/header_view').view('contenido/terminos_y_condiciones').view('practico/footer_view');
+    }
 }

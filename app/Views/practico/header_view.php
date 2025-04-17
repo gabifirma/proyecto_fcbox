@@ -26,7 +26,7 @@
               <a class="nav-link" href="<?php echo base_url('/'); ?>">Principal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Galería</a>
+              <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quienes somos</a>
