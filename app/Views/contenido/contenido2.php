@@ -1,7 +1,7 @@
 <section class="mt-5 container">
     <h1>Novedades</h1>
     
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4" id="card1">
         <div class="col">
             <div class="card">
                 <img src="assets/img/nuevo1.jpg" class="card-img-top" alt="...">

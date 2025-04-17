@@ -30,19 +30,6 @@ h1 {
     /*alineación*/
 }
 
-img {
-    display: block;
-    margin: auto;
-}
-
-a {
-    margin: 5px 5px;
-    text-decoration: none;
-    color: rgb(7, 21, 143);
-    padding: 14px 20px;
-    display: block;
-}
-
 a:hover {
     color: #32cd32;
     font-weight: bolder;
@@ -53,19 +40,6 @@ hay que probar esta funcionalidad */
 * {
     margin: 0;
     padding: 0;
-}
-
-.titulo {
-    background-color: rgb(99, 8, 99);
-    margin: 20px;
-}
-
-.parrafo {
-    background-color: rgb(99, 8, 99);
-    padding-top: 30px;
-    padding-left: 100px;
-    padding-bottom: 40px;
-    padding-right: 300px;
 }
 
 footer {
@@ -85,17 +59,9 @@ footer {
     }
 }
 
-nav ul {
-    list-style-type: none;
-    text-align: start;
-    color: black;
-    font-size: medium;
-    font-family: Arial;
-    font-weight: inherit;
-
-}
-
 .carousel-item img {
+    display: block;
+    margin: auto;
     width: 100%;
     height: 400px;
     /* Ajusta el valor según sea necesario */
@@ -116,16 +82,11 @@ h3 {
     /* negrito o fuerte*/
 }
 
-.section-barra {
+.navbar {
     background-color: #32cd32;
 }
 
-.card img {
-    width: 333px;
-    height: 500px;
-    object-fit: cover;
-}
-
+/*configuraciones para comercializacion*/
 #card1 .card {
     background-color: black;
     align-self: center;
@@ -141,10 +102,25 @@ h3 {
 
     .card-body {
         background-color: white;
-
     }
 }
 
 .card-title {
     color: black;
+}
+
+.card img {
+    display: block;
+    margin: auto;
+    width: 333px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/*configuraciones para principal*/
+#card2 .card {
+    background-color: white;
+    align-self: center;
+    max-width: 340px;
+    margin-left: auto;
 }

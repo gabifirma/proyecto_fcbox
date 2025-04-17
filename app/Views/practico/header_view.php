@@ -14,29 +14,27 @@
   
 <header>
   <section>
-    <nav class="navbar navbar-expand-lg section-barra">
-        <a class="navbar-brand" href="#">
-          <img src="assets/img/icono.png" alt="icono" width="50" height="44">
-        </a>
-      <div class="container-fluid" >
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active"  href="<?php echo base_url(); ?>">Principal</a>
+              <a class="nav-link" href="<?php echo base_url('principal'); ?>">Principal</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Menú
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="<?php echo base_url('quienes_somos'); ?>">Quienes Somos</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="<?php echo base_url('contacto'); ?>">Contacto</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Términos y Usos</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercialización</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo base_url('nosotros'); ?>">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Términos y Usos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo base_url('contacto'); ?>">Contacto</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -45,7 +43,7 @@
           </form>
         </div>
       </div>
-    </nav>    
+    </nav>
   </section>
 
   
