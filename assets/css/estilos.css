@@ -43,7 +43,7 @@ hay que probar esta funcionalidad */
 }
 
 footer {
-    background-color: white;
+    background-color: #1a1a1a;
     padding: 10px 20px 30px; /* Eliminé 'center', ya que no es válido en padding */
     margin: 0; /* Asegura que no haya márgenes que reduzcan el ancho */
     text-align: center;
@@ -53,13 +53,25 @@ footer {
     left: 0; /* Asegura que comience desde la izquierda */
 
     i {
-        color: #32cd32;
+        color: #f5f5f5;
     }
 
     i:hover {
-        color: black;
+        color: #32cd32;
         font-weight: bolder;
     }
+}
+
+footer h3 {
+    color: #32cd32; /* Verde vibrante */
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #b0b0b0; /* Un gris más tenue para suavizar el contraste */
+    margin-top: 15px;
 }
 
 .carousel-item img {
@@ -127,3 +139,30 @@ h3 {
     max-width: 340px;
     margin-left: auto;
 }
+
+
+
+#quienes-somos h1, 
+#quienes-somos h2 {
+    color: #32cd32;
+    text-align: left;
+}
+
+
+
+
+#quienes-somos p {
+    text-align: justify;
+    color: #e0e0e0;
+   
+}
+
+#quienes-somos {
+    background-color: #2f2f2f; /* Fondo oscuro */
+    color: black; /* Texto oscuro para mejor contraste */
+    padding: 20px;
+
+    max-width: 100%;
+    margin: auto;
+}
+

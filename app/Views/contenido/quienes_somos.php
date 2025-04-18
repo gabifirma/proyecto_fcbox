@@ -1,4 +1,12 @@
-<section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos - FC Box</title>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css'); ?>">
+</head>
+<br>
+<section id="quienes-somos">
+    <br>
     <h1>Quiénes Somos</h1>
     <p>Bienvenido a <strong>FC Box</strong>, tu tienda virtual de videojuegos digitales en Argentina. Desde nuestra fundación en 2018, nos hemos dedicado a ofrecer una plataforma confiable y accesible para que los gamers disfruten de los mejores títulos al instante.</p>
     
