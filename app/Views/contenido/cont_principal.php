@@ -1,14 +1,14 @@
 <section>
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleInterval" class="carousel slide text-center" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="5000">
-        <img src="assets/img/fondo1.jpg" class="d-block w-100 img-fluid" alt="...">
+        <img src="assets/img/imagen1.jpg" class="img-fluid" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="assets/img/fondo3.jpg" class="d-block w-100 img-fluid" alt="...">
+        <img src="assets/img/imagen2.jpg" class="img-fluid" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="assets/img/halo_fondo.jpg" class="d-block w-100 img-fluid" alt="...">
+        <img src="assets/img/imagen3.jpg" class="img-fluid" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -73,5 +73,14 @@
         </div>
       </div>
     </div>
+  </div>
+
+
+</section>
+
+<section class="mt-5">
+  <div>
+    <h1>Ofertas Mensuales</h1>
+    
   </div>
 </section>
