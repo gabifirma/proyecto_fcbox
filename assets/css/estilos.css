@@ -276,56 +276,78 @@ h3 {
     text-align: justify; /* Asegura alineación uniforme */
 }
 
-/* Estilo general */
+/* Sección de contacto */
 #contacto {
-    background-color: #1a1a1a; /* Fondo oscuro elegante */
-    color: #f5f5f5; /* Texto claro */
+    background-color: #1a1a1a;
+    color: #f5f5f5;
     padding: 50px;
     max-width: 100%;
     margin: auto;
-    font-family: 'Arial', sans-serif; /* Fuente moderna y profesional */
+    font-family: 'Arial', sans-serif;
 }
 
-/* Encabezado */
+/* Encabezados */
 #contacto h1, #contacto h2 {
-    color: #32cd32; /* Verde vibrante */
+    color: #32cd32;
     font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #32cd32;
+    border-bottom: 2px solid #555;
     padding-bottom: 10px;
 }
 
-/* Información de contacto */
-#contacto div p {
+/* Datos de contacto */
+.datos-contacto p {
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
-    color: #f5f5f5; /* Asegurar que todo el texto sea claro */
+    color: #f5f5f5; /* Texto en blanco */
 }
 
+
 /* Formulario */
-#contacto form {
-    background-color: #222; /* Fondo gris oscuro */
+.formulario-contacto {
+    background-color: #222;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 /* Campos del formulario */
-#contacto input, #contacto select, #contacto textarea {
+.formulario-contacto input, 
+.formulario-contacto select, 
+.formulario-contacto textarea {
     font-size: 18px;
     padding: 10px;
     width: 100%;
     border: 1px solid #555;
     border-radius: 5px;
     background-color: #333;
-    color: #f5f5f5; /* Asegurar texto claro */
+    color: #f5f5f5;
 }
 
-/* Botón de envío */
-#contacto button {
+/* Checkbox */
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #32cd32;
+    appearance: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.form-check-input:checked {
+    background-color: #32cd32;
+    border: 2px solid #f5f5f5;
+}
+
+/* Botón */
+.formulario-contacto button {
     background-color: #32cd32;
     color: white;
     font-size: 18px;
@@ -336,7 +358,6 @@ h3 {
     font-weight: bold;
 }
 
-#contacto button:hover {
+.formulario-contacto button:hover {
     background-color: #2a8a2a;
 }
-
