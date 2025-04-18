@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
+  <link rel="icon" href="assets/img/icono.png" type="image/x-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FCBox</title>
@@ -17,6 +19,11 @@
   <section>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
+         <!-- Ícono y Nombre -->
+         <a class="navbar-brand" href="<?php echo base_url('/'); ?>">
+            <img src="assets/img/icono.png" alt="FCBox" width="40" height="40">
+            <span class="brand-text">FCBox</span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
