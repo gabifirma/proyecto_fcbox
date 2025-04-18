@@ -97,10 +97,59 @@ h3 {
     /* negrito o fuerte*/
 }
 
-.navbar {
+/*.navbar {
     background-color: #32cd32;
 }
+    */
 
+    /*navbar mejorado*/
+    .navbar {
+        background-color: #1a1a1a; /* Fondo oscuro */
+        border-bottom: 2px solid #32cd32; /* Borde verde vibrante */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Sombra para profundidad */
+    }
+    
+    /* Estilos para los enlaces de navegación */
+    .navbar .nav-link {
+        color: #f5f5f5; /* Texto claro */
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    
+    .navbar .nav-link:hover {
+        color: #32cd32; /* Verde al pasar el cursor */
+    }
+    
+    /* Estilo para el botón del menú en dispositivos móviles */
+    .navbar-toggler {
+        border-color: #32cd32;
+    }
+    
+    .navbar-toggler-icon {
+        background-color: #f5f5f5; /* Icono más visible */
+    }
+    
+    /* Ajustes para móviles */
+    @media (max-width: 768px) {
+        .navbar {
+            padding: 10px;
+        }
+        
+        .navbar .nav-link {
+            font-size: 18px;
+        }
+    }
+    .navbar-toggler {
+        border-color: #32cd32; /* Borde verde vibrante */
+    }
+    
+    .navbar-toggler-icon {
+        background-color: transparent; /* Evitar que el fondo sea blanco */
+        color: #f5f5f5; /* Icono blanco */
+        filter: invert(100%); /* Invertir colores si usa imagen de Bootstrap */
+    }
+    /*Aca termina navbar mejrado*/
+    
 /*configuraciones para comercializacion*/
 #card1 .card {
     background-color: black;
@@ -154,7 +203,6 @@ h3 {
 #quienes-somos p {
     text-align: justify;
     color: #e0e0e0;
-   
 }
 
 #quienes-somos {
