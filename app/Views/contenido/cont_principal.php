@@ -153,3 +153,61 @@
     </div>
   </div>
 </section>
+
+<section class="mt-5 container">
+  <hr style="border-top: 5px solid #32cd32; width: auto;">
+  <div>
+    <h1>Novedades</h1>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="card2">
+    <div class="card mb-5">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/img/nuevo1.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Batman Knights</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer bg-transparent">
+        <a href="#" class="btn btn-success">Link</a>
+      </div>
+    </div>
+    <div class="card mb-5">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/img/nuevo2.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Age Of Empires IV: Anniversary Edition</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer bg-transparent">
+        <a href="#" class="btn btn-success">Link</a>
+      </div>
+    </div>
+    <div class="card mb-5 mr-5">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/img/nuevo3.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Mortal Kombat 11</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer bg-transparent">
+        <a href="#" class="btn btn-success">Link</a>
+      </div>
+    </div>
+  </div>
+</section>

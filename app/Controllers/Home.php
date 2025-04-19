@@ -9,7 +9,7 @@ class Home extends BaseController
         return view('practico/header_view').view('contenido/cont_principal').view('practico/footer_view');   
     }
     public function comercializacion(){
-        return view('practico/header_view').view('contenido/cont_comercializacion').view('contenido/contenido2').view('practico/footer_view');
+        return view('practico/header_view').view('contenido/cont_comercializacion').view('practico/footer_view');
     }
     public function quienes_somos(): string
     {
