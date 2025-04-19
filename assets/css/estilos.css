@@ -1,21 +1,6 @@
 /*ID´s llevan # y son unicos por elemento*/
 /*las clases son repetibles y llevan . */
 
-p {
-    font-family: verdana;
-    /*tipo de letras*/
-    text-align: center;
-    /*alineación del texto*/
-    color: black;
-    /*color de la fuente*/
-    font-size: 24 px;
-    /*tamaño de la fuente*/
-    font-style: italic;
-    /*estilo */
-    font-weight: bold;
-    /* negrito o fuerte*/
-}
-
 body {
     background-color: #2f2f2f;
     /*color de fondo del body*/
@@ -202,6 +187,11 @@ h3 {
 
     .card-body {
         background-color: white;
+        border-style: dashed;
+    }
+
+    .list-group-item {
+        border-radius: 5%;
     }
 }
 
@@ -223,6 +213,11 @@ h3 {
     align-self: center;
     max-width: 340px;
     margin-left: auto;
+
+    a {
+        margin-left: 40%;
+        margin-top: 0.1%;
+    }
 }
 
 
@@ -232,9 +227,6 @@ h3 {
     color: #32cd32;
     text-align: left;
 }
-
-
-
 
 #quienes-somos p {
     text-align: justify;

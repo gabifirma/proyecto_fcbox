@@ -128,5 +128,21 @@
             </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/juego14.jpg" class="img-fluid card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Among Us</h5>
+                <p class="card-text">Una descripción.</p>
+            </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+              </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+            </div>
+        </div>
+      </div>
     </div>
   </section>
