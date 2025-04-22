@@ -1,148 +1,24 @@
-  <section class="mt-4 container">
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="card1">
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego13.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Soul Knight</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego10.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Farcry 5</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego6.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Star Wars: Jedi - Fallen Order</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego7.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">FIFA 24</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego8.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Halo Infinite</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego9.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Call Of Duty: Black Ops 6</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego11.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Forza Horizon 5</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego12.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">State Of Decay 2: Juggernaut Edition</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/img/juego14.jpg" class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Among Us</h5>
-                <p class="card-text">Una descripción.</p>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-              </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercialización - FC Box</title>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css'); ?>">
+</head>
+<br>
+<section id="quienes-somos">
+    <br>
+    <h2>Tipos de Entrega</h2>
+    <p>Acá en <strong>FC Box</strong> la entrega de los juegos digitales es al instante. Una vez confirmado el pago, se le enviará un link para su descarga por un período de 30 (treinta) días.</p>
+    
+    <h2>Nuestra Trayectoria</h2>
+    <p>Lo que comenzó como un proyecto apasionado ha evolucionado hasta convertirse en una tienda digital enfocada en brindar juegos de calidad con entregas rápidas y eficientes. Nos mantenemos al día con las últimas tendencias del mercado para ofrecer siempre la mejor selección de videojuegos.</p>
+
+    <h2>Nuestra Misión</h2>
+    <p>Nuestro objetivo es proporcionar acceso fácil e inmediato a videojuegos digitales, eliminando barreras logísticas y asegurando que los jugadores puedan disfrutar de sus títulos favoritos con solo unos clics.</p>
+
+    <h2>Nuestro Equipo</h2>
+    <p>Detrás de <strong>FC Box</strong> hay un equipo de gamers y expertos en tecnología que trabajan para garantizar que cada compra sea sencilla, rápida y segura. Estamos aquí para ayudarte a encontrar el juego perfecto para tu próxima aventura.</p>
+
+    <p>Si quieres conocer más o formar parte de nuestra comunidad, <strong>¡contáctanos!</strong> 🚀</p>
+
+</section>

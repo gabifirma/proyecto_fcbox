@@ -23,4 +23,8 @@ class Home extends BaseController
     {
         return view('practico/header_view').view('contenido/terminos_y_condiciones').view('practico/footer_view');
     }
+    public function galeria(): string
+    {
+        return view('practico/header_view').view('contenido/cont_galeria').view('practico/footer_view');
+    }
 }

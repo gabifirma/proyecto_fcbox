@@ -10,4 +10,4 @@ $routes->get('comercializacion', 'Home::comercializacion');
 $routes->get('quienes_somos', 'Home::quienes_somos');
 $routes->get('contacto', 'Home::contacto');
 $routes->get('terminos', 'Home::terminos');
-
+$routes->get('galeria', 'Home::galeria');
