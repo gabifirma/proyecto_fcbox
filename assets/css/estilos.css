@@ -252,6 +252,28 @@ h3 {
     margin: auto;
 }
 
+<<<<<<< HEAD
+=======
+#quienes-somos img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#nuestro-equipo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+
+
+>>>>>>> 8b6cdb2b4dbac061ed7ea007feb1ae831d907ea8
 #terminos {
     background-color: #1a1a1a;
     /* Fondo oscuro */
