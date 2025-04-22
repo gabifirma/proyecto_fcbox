@@ -171,7 +171,7 @@ h3 {
 
 /*Aca termina navbar mejrado*/
 
-/*configuraciones para comercializacion*/
+/*configuraciones para galeria*/
 #card1 .card {
     background-color: black;
     align-self: center;
@@ -219,7 +219,16 @@ h3 {
     }
 }
 
+/*configuraciones para comercializacion*/
+#card3 .card {
+    width: 300px;
+    height: 300px;
 
+    img {
+        height: 200px;
+        object-fit: cover;
+    }
+}
 
 #quienes-somos h1,
 #quienes-somos h2 {
@@ -227,7 +236,8 @@ h3 {
     text-align: left;
 }
 
-#quienes-somos p {
+#quienes-somos p,
+#quienes-somos li {
     text-align: justify;
     color: #e0e0e0;
 }
@@ -241,8 +251,6 @@ h3 {
     max-width: 100%;
     margin: auto;
 }
-
-
 
 #terminos {
     background-color: #1a1a1a;
