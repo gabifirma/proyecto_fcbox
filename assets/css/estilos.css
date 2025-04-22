@@ -228,6 +228,10 @@ h3 {
         height: 200px;
         object-fit: cover;
     }
+
+    .card-body {
+        text-align: center;
+    }
 }
 
 #quienes-somos h1,
@@ -252,8 +256,6 @@ h3 {
     margin: auto;
 }
 
-<<<<<<< HEAD
-=======
 #quienes-somos img {
     max-width: 80%;
     height: auto;
@@ -273,7 +275,6 @@ h3 {
 
 
 
->>>>>>> 8b6cdb2b4dbac061ed7ea007feb1ae831d907ea8
 #terminos {
     background-color: #1a1a1a;
     /* Fondo oscuro */

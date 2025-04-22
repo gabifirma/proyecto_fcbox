@@ -169,7 +169,9 @@
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Batman Knights</h5>
-            <p class="card-text"></p>
+            <p class="card-text">Es un RPG de mundo abierto, ambientado en la versión más dinámica e interactiva de 
+              Ciudad Gótica hasta ahora. Juega en solitario o con otro héroe y patrulla los cinco distritos de 
+              Ciudad Gótica para sorprender a los criminales dondequiera que se encuentren</p>
           </div>
         </div>
       </div>
@@ -185,7 +187,9 @@
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Age Of Empires IV: Anniversary Edition</h5>
-            <p class="card-text"></p>
+            <p class="card-text">Combina lo que ya le funcionó en su momento con fórmulas innovadoras para que 
+              disfrutes expandiendo tu imperio hasta donde alcancen tus ojos, todo ello con una impresionante 
+              fidelidad visual en 4K que eleva a este juego de estrategia en tiempo real a otro nivel.</p>
           </div>
         </div>
       </div>
@@ -201,7 +205,9 @@
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Mortal Kombat 11</h5>
-            <p class="card-text"></p>
+            <p class="card-text">Se trata de la undécima secuela de una serie de títulos de combate y peleas 
+              de marcada estructura 2D, que en esta ocasión, además de añadir los mejores gráficos de la serie, 
+              presentará luchadores clásicos y nuevos, más modos de juego y una oferta online que quiere marcar un antes y un después.</p>
           </div>
         </div>
       </div>
