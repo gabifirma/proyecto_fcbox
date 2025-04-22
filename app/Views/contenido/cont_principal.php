@@ -30,8 +30,8 @@
     <a class="btn btn-outline-success" href="<?php echo base_url('comercializacion'); ?>" role="button">Mostrar todo</a>
   </div>
   
-  <div class="row row-cols-1 row-cols-md-3 g-4" id="card2">
-    <div class="card mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-1 " id="card2">
+    <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/juego8.jpg" class="img-fluid rounded-start" alt="...">
@@ -49,7 +49,7 @@
         <a href="#" class="btn btn-success">Link</a>
       </div>
     </div>
-    <div class="card mb-5">
+    <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/juego14.jpg" class="img-fluid rounded-start" alt="...">
@@ -67,7 +67,7 @@
         <a href="#" class="btn btn-success">Link</a>
       </div>
     </div>
-    <div class="card mb-5 mr-5">
+    <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/juego7.jpg" class="img-fluid rounded-start" alt="...">
@@ -95,8 +95,8 @@
     <h1>Ofertas Mensuales</h1>
   </div>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4" id="card2">
-    <div class="card mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-1 " id="card2">
+    <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/juego7.jpg" class="img-fluid rounded-start" alt="...">
@@ -115,7 +115,7 @@
         <a href="#" class="btn btn-success">Link</a>
       </div>
     </div>
-    <div class="card mb-5">
+    <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/juego15.jpg" class="img-fluid rounded-start" alt="...">
@@ -133,7 +133,7 @@
         <a href="#" class="btn btn-success">Link</a>
       </div>
     </div>
-    <div class="card mb-5 mr-5">
+    <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/juego17.jpg" class="img-fluid rounded-start" alt="...">
@@ -160,8 +160,8 @@
     <h1>Novedades</h1>
   </div>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4" id="card2">
-    <div class="card mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-1" id="card2">
+    <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/nuevo1.jpg" class="img-fluid rounded-start" alt="...">
@@ -177,7 +177,7 @@
         <a href="#" class="btn btn-success">Link</a>
       </div>
     </div>
-    <div class="card mb-5">
+    <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/nuevo2.jpg" class="img-fluid rounded-start" alt="...">
@@ -193,7 +193,7 @@
         <a href="#" class="btn btn-success">Link</a>
       </div>
     </div>
-    <div class="card mb-5 mr-5">
+    <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="assets/img/nuevo3.jpg" class="img-fluid rounded-start" alt="...">
