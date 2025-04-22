@@ -242,6 +242,23 @@ h3 {
     margin: auto;
 }
 
+#quienes-somos img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#nuestro-equipo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
 
 
 #terminos {
