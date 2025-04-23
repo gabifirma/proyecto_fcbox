@@ -1,26 +1,29 @@
 <br>
-  <footer>
-  <br>
-    <h3>Redes Sociales</h3>
+    <footer>
+    <br>
+        <h3>Redes Sociales</h3>
     
-    <section>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="https://www.facebook.com/?locale=es_LA" target="_blanck"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://x.com/?lang=es" target="_blanck"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/" target="_blanck"><i class="fa-brands fa-instagram fa-2xl"></i></a>
-            </li>
-        </ul>
-    </section>
-    <p>© Copyright 2025 FCBox. Todos los derechos reservados.</p>
-  </footer>
+        <section>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="https://www.facebook.com/?locale=es_LA" target="_blanck"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://x.com/?lang=es" target="_blanck"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/" target="_blanck"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                </li>
+            </ul>
+        </section>
+        <p>© Copyright 2025 FCBox. Todos los derechos reservados.</p>
+    </footer>
 
-  <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
-
+    <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
 </body>
 
 </html>

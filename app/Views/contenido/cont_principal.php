@@ -45,9 +45,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="aloja">Acceder</button>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
@@ -63,9 +61,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
@@ -82,9 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="hola gabi">Acceder</button>
     </div>
   </div>
 </section>
@@ -111,9 +105,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
@@ -129,9 +121,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
@@ -147,9 +137,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
     </div>
   </div>
 </section>
@@ -175,9 +163,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
@@ -193,9 +179,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
@@ -211,9 +195,7 @@
           </div>
         </div>
       </div>
-      <div class="card-footer bg-transparent">
-        <a href="#" class="btn btn-success">Link</a>
-      </div>
+      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
     </div>
   </div>
 </section>
