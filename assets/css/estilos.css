@@ -240,6 +240,21 @@ h3 {
     text-align: left;
 }
 
+#quienes-somos h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    background: linear-gradient(90deg, #32cd32, #228b22); /* Degradado verde */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hace que solo las letras tengan el degradado */
+}
+
+
+
+
+
+
 #quienes-somos p,
 #quienes-somos li {
     text-align: justify;
@@ -263,6 +278,7 @@ h3 {
     margin: 20px auto;
     border-radius: 10px;
 }
+
 
 #nuestro-equipo img {
     max-width: 100%;
