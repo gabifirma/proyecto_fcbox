@@ -4,13 +4,14 @@
     <title>Comercialización - FC Box</title>
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css'); ?>">
 </head>
-<br>
+
 <section id="quienes-somos">
     <br>
     <h2>1. Tipos de Entregas</h2>
     <p>Ofrecemos diferentes opciones de entrega para adaptarnos a las necesidades de nuestros clientes:</p>
     <ul>
         <li><strong>Entrega digital inmediata:</strong> Recibe el código de activación en tu correo electrónico una vez confirmado el pago.</li>
+        <br>
         <div class="row row-cols-1 row-cols-md-1 g-2 container-fluid" id="card3">
             <div class="col">
                 <div class="card mx-auto">
@@ -49,6 +50,7 @@
         </div>
     </div>
 
+    <br>
     <h2>3. Formas de Pago</h2>
     <p>Disponemos de múltiples métodos de pago para facilitar tu compra:</p>
     <ul>
