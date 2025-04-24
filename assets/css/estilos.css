@@ -245,15 +245,11 @@ h3 {
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
-    background: linear-gradient(90deg, #32cd32, #228b22); /* Degradado verde */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Hace que solo las letras tengan el degradado */
+    background: linear-gradient(90deg, #32cd32, #228b22);
+    /* Degradado verde */
+    -webkit-text-fill-color: transparent;
+    /* Hace que solo las letras tengan el degradado */
 }
-
-
-
-
-
 
 #quienes-somos p,
 #quienes-somos li {

@@ -45,8 +45,26 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="aloja">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalUno">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalUno" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 8.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
         <div class="col-md-4">
@@ -61,8 +79,26 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDos">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalDos" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 14.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
         <div class="col-md-4">
@@ -78,9 +114,29 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="hola gabi">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTres">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalTres" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 14.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+  
+  
 </section>
 
 <section class="mt-5 container">
@@ -105,7 +161,24 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCuatro">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalCuatro" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 14.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
@@ -121,7 +194,24 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCinco">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalCinco" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 14.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
@@ -137,7 +227,24 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSeis">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalSeis" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 14.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -163,7 +270,24 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSiete">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalSiete" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 14.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
@@ -179,7 +303,24 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalOcho">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalOcho" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 14.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
@@ -195,7 +336,24 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Acceder</button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNueve">
+        Leer más
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalNueve" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Modal Uno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              descripcion: juego 14.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
