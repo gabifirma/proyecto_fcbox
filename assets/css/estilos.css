@@ -246,9 +246,13 @@ h3 {
     text-transform: uppercase;
     text-align: left;
     background: linear-gradient(90deg, #32cd32, #228b22); /* Degradado verde */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Hace que solo las letras tengan el degradado */
+    background-clip: text; /* Versión estándar */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit */
+    -moz-background-clip: text; /* Compatibilidad con Firefox */
+    color: transparent; /* Hace que solo las letras tengan el degradado */
 }
+
+
 
 
 
