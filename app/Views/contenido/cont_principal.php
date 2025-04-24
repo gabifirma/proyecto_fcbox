@@ -28,7 +28,7 @@
   <h1>Top 3 Populares</h1>
 
   <div class="mt-3 mb-3">
-    <a class="btn btn-outline-success" href="<?php echo base_url('comercializacion'); ?>" role="button">Mostrar todo</a>
+    <a class="btn btn-outline-success" href="<?php echo base_url('galeria'); ?>" role="button">Mostrar todo</a>
   </div>
   
   <div class="row row-cols-1 row-cols-md-3 g-1 " id="card2">
