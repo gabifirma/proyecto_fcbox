@@ -34,16 +34,8 @@
   <div class="row row-cols-1 row-cols-md-3 g-1 " id="card2">
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col">
           <img src="assets/img/juego8.jpg" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Halo Infinite</h5>
-            <p class="card-text">En esta nueva entrega, el jefe Maestro, el gran héroe de la humanidad y 
-              personaje principal de la saga, se enfrentará a un grupo sanguinario y temible conocido como 
-              los Desterrados, formado por antiguos integrantes del Covenant.</p>
-          </div>
         </div>
       </div>
       <!-- Button trigger modal -->
@@ -55,11 +47,16 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title">Modal Uno</h5>
+            <h5 class="modal-title">Halo Infinite</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              descripcion: juego 8.
+              <strong>Descripción:</strong> Cuando se pierde toda esperanza y el destino de la humanidad pende de un hilo, 
+              el Jefe Maestro está listo para enfrentarse al enemigo más despiadado al que se haya enfrentado. Entra en la 
+              armadura del héroe más grande de la humanidad para experimentar una aventura épica de mundo abierto y explora 
+              las enormes dimensiones del anillo Halo. <br> <br>
+              <strong>Desarrollador:</strong> 343 Industries. <br> <br>
+              <strong>Precio:</strong> ARS$ 79.999,00.
             </div>
           </div>
         </div>
@@ -68,16 +65,8 @@
 
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col">
           <img src="assets/img/juego14.jpg" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Among Us</h5>
-            <p class="card-text">Un juego exclusivamente online donde la verdadera oposición son los otros 
-              jugadores que están contigo. Cada juego será diferente dependiendo del rol que estés jugando y 
-              de la experiencia o astucia de los otros jugadores</p>
-          </div>
         </div>
       </div>
       <!-- Button trigger modal -->
@@ -89,11 +78,15 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title">Modal Uno</h5>
+            <h5 class="modal-title">Among Us</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              descripcion: juego 14.
+              <strong>Descripción:</strong> Un juego exclusivamente online donde la verdadera oposición son los otros 
+              jugadores que están contigo. Cada juego será diferente dependiendo del rol que estés jugando y 
+              de la experiencia o astucia de los otros jugadores. <br> <br>
+              <strong>Desarrollador:</strong> Innersloth. <br> <br>
+              <strong>Precio:</strong> ARS$ 79,00.
             </div>
           </div>
         </div>
@@ -102,17 +95,8 @@
 
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col">
           <img src="assets/img/juego7.jpg" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Fifa 24</h5>
-            <p class="card-text">Este  es el comienzo del futuro del fútbol. Con este título innovador y 
-              auténtico, te sentirás mucho más cerca del juego gracias a una experiencia futbolística más real 
-              que nunca y a la compañía de los mejores jugadores de los equipos, ligas y competencias más grandes
-              del mundo.</p>
-          </div>
         </div>
       </div>
       <!-- Button trigger modal -->
@@ -124,11 +108,20 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title">Modal Uno</h5>
+            <h5 class="modal-title">FIFA 24</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              descripcion: juego 14.
+              <strong>Descripción:</strong> Este  es el comienzo del futuro del fútbol. Con este título innovador y 
+              auténtico, te sentirás mucho más cerca del juego gracias a una experiencia futbolística más real 
+              que nunca y a la compañía de los mejores jugadores de los equipos, ligas y competencias más grandes
+              del mundo.
+              <br>
+              <br>
+              <strong>Desarrollador:</strong> EA Canadá.
+              <br>
+              <br>
+              <strong>Precio:</strong> ARS$ 48.999,00.
             </div>
           </div>
         </div>
@@ -149,17 +142,8 @@
   <div class="row row-cols-1 row-cols-md-3 g-1 " id="card2">
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col">
           <img src="assets/img/juego7.jpg" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">FIFA 24</h5>
-            <p class="card-text">Este  es el comienzo del futuro del fútbol. Con este título innovador y 
-              auténtico, te sentirás mucho más cerca del juego gracias a una experiencia futbolística más real 
-              que nunca y a la compañía de los mejores jugadores de los equipos, ligas y competencias más grandes
-              del mundo.</p>
-          </div>
         </div>
       </div>
       <!-- Button trigger modal -->
@@ -171,11 +155,20 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title">Modal Uno</h5>
+            <h5 class="modal-title">FIFA 24</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              descripcion: juego 14.
+              <strong>Descripción:</strong> Este  es el comienzo del futuro del fútbol. Con este título innovador y 
+              auténtico, te sentirás mucho más cerca del juego gracias a una experiencia futbolística más real 
+              que nunca y a la compañía de los mejores jugadores de los equipos, ligas y competencias más grandes
+              del mundo.
+              <br>
+              <br>
+              <strong>Desarrollador:</strong> EA Canadá.
+              <br>
+              <br>
+              <strong>Precio:</strong> ARS$ 48.999,00.
             </div>
           </div>
         </div>
@@ -183,16 +176,8 @@
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col">
           <img src="assets/img/juego15.jpg" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Battlefield 4</h5>
-            <p class="card-text"> Un juego de acción ambientado de nuevo en la guerra moderna, con una espectacular y 
-              cinematográfica campaña para un jugador y sobre todo con un ambicioso multijugador competitivo, con 
-              batallas hasta para 64 jugadores, vehículos, escenarios destructibles y clima dinámico.</p>
-          </div>
         </div>
       </div>
       <!-- Button trigger modal -->
@@ -204,11 +189,15 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title">Modal Uno</h5>
+            <h5 class="modal-title">Battlefield 4</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              descripcion: juego 14.
+              <strong>Descripción:</strong> Un juego de acción ambientado de nuevo en la guerra moderna, con una espectacular y 
+              cinematográfica campaña para un jugador y sobre todo con un ambicioso multijugador competitivo, con 
+              batallas hasta para 64 jugadores, vehículos, escenarios destructibles y clima dinámico. <br><br>
+              <strong>Desarrollador:</strong> EA Digital Illusions CE.<br><br>
+              <strong>Precio:</strong> ARS$ 8.999,00.
             </div>
           </div>
         </div>
@@ -216,16 +205,8 @@
     </div>
     <div class="card mb-5 mx-auto" style="max-width: 340px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col">
           <img src="assets/img/juego17.jpg" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Doom</h5>
-            <p class="card-text"> La serie se centra en las hazañas de un marine espacial no identificado que opera bajo 
-              las órdenes de la Union Aerospace Corporation (UAC), que lucha contra hordas de demonios y no muertos en 
-              el inframundo y la Tierra, protagonizando diversos viajes por portales entre ambos mundos.</p>
-          </div>
         </div>
       </div>
       <!-- Button trigger modal -->
@@ -237,11 +218,15 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title">Modal Uno</h5>
+            <h5 class="modal-title">Doom</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              descripcion: juego 14.
+             <strong>Descripción:</strong> La serie se centra en las hazañas de un marine espacial no identificado que opera bajo 
+              las órdenes de la Union Aerospace Corporation (UAC), que lucha contra hordas de demonios y no muertos en 
+              el inframundo y la Tierra, protagonizando diversos viajes por portales entre ambos mundos. <br><br>
+              <strong>Desarrollador:</strong> id Software.<br><br>
+              <strong>Precio:</strong> ARS$ 8.799,00.
             </div>
           </div>
         </div>
