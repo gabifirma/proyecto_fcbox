@@ -27,4 +27,12 @@ class Home extends BaseController
     {
         return view('practico/header_view').view('contenido/cont_galeria').view('practico/footer_view');
     }
+    public function login(): string
+    {
+        return view('practico/header_view').view('contenido/login').view('practico/footer_view');
+    }
+    public function registrarse(): string
+    {
+        return view('practico/header_view').view('contenido/registrarse').view('practico/footer_view');
+    }
 }

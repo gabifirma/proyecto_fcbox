@@ -291,10 +291,6 @@ h3 {
     border-radius: 10px;
 }
 
-
-
-
-
 #terminos {
     background-color: #1a1a1a;
     /* Fondo oscuro */
@@ -435,4 +431,12 @@ h3 {
 
 .formulario-contacto button:hover {
     background-color: #2a8a2a;
+}
+
+/*para pagina de login*/
+#login {
+    .label {
+        font-size: large;
+        font-weight: bolder;
+    }
 }

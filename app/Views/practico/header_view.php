@@ -39,12 +39,13 @@
               <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quienes somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Términos y Usos</a>
+              <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Términos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('contacto'); ?>">Contacto</a>
             </li>
           </ul>
+            <a class="btn btn-outline-success me-2" href="<?php echo base_url('login'); ?>" role="button">Login</a>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Buscar</button>

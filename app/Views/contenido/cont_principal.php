@@ -2,13 +2,13 @@
   <br>
   <div id="carouselExampleInterval" class="carousel slide text-center" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="5000">
+      <div class="carousel-item active" data-bs-interval="4000">
         <img src="assets/img/imagen1.jpg" class="img-fluid" alt="...">
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
+      <div class="carousel-item" data-bs-interval="4000">
         <img src="assets/img/imagen2.jpg" class="img-fluid" alt="...">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-interval="4000">
         <img src="assets/img/imagen3.jpg" class="img-fluid" alt="...">
       </div>
     </div>
