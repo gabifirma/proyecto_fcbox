@@ -1,5 +1,5 @@
   <section>
-    <div class="card text-center container-fluid mb-5" style="width: 45rem; margin-top: 5%">
+    <div class="card text-center formulario-login container-fluid mb-5" style="width: 45rem; margin-top: 5%">
       <div class="card-header">
         Iniciar Sesión
       </div>

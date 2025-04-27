@@ -374,143 +374,229 @@ h3 {
 }
 
 
-/* Formulario */
-.formulario-contacto {
-    background-color: #222;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
-}
-
-/* Campos del formulario */
-.formulario-contacto input,
-.formulario-contacto select,
-.formulario-contacto textarea {
-    font-size: 18px;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #555;
-    border-radius: 5px;
-    background-color: #333;
-    color: #f5f5f5;
-}
-
-/* Checkbox */
-.form-check {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    .form-check-label {
-        color: white;
-    }
-}
-
-.form-check-input {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid #32cd32;
-    appearance: none;
-    cursor: pointer;
-    background-color: white;
-}
-
-.form-check-input:checked {
-    background-color: #32cd32;
-    border: 2px solid #f5f5f5;
-}
-
-/* Botón */
-.formulario-contacto button {
-    background-color: #32cd32;
-    color: white;
-    font-size: 18px;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.formulario-contacto button:hover {
-    background-color: #2a8a2a;
-}
-
 
 
 
 
 /* Para formulario login o iniciar sesion*/
 
-/* Contenedor principal */
-.card {
+/* Estilo exclusivo para el formulario de iniciar sesión */
+.formulario-login {
+    max-width: 90%; /* Limita el ancho para pantallas grandes */
+    margin: 0 auto; /* Centrado horizontal */
+    border-radius: 10px; /* Bordes redondeados */
     background-color: #222; /* Fondo oscuro */
     color: white; /* Texto blanco */
-    border: none; /* Sin bordes */
-    border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6); /* Sombra */
-    padding: 20px; /* Espaciado interno */
 }
 
-/* Header de la tarjeta */
-.card-header {
-    background-color: #333; /* Fondo ligeramente más claro */
-    color: white; /* Texto blanco */
-    font-size: 1.5rem; /* Tamaño de fuente grande */
-    font-weight: bold; /* Texto en negrita */
-    text-align: center; /* Centrado */
-    border-bottom: 1px solid #444; /* Borde inferior sutil */
+/* Header exclusivo para iniciar sesión */
+.formulario-login .card-header {
+    text-align: center;
+    background-color: #333; /* Fondo más claro */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
 }
 
 /* Cuerpo de la tarjeta */
-.card-body {
-    background-color: #222; /* Fondo oscuro */
-    color: white; /* Texto blanco */
-    padding: 30px; /* Espaciado interno amplio */
-    border-radius: 10px; /* Bordes redondeados */
+.formulario-login .card-body {
+    padding: 20px;
 }
 
-/* Campos del formulario */
-.card-body input {
-    font-size: 1rem; /* Tamaño de fuente cómodo */
-    padding: 10px; /* Espaciado interno */
-    width: 100%; /* Ocupa todo el ancho disponible */
-    border: 1px solid #555; /* Borde oscuro */
-    border-radius: 5px; /* Bordes redondeados */
-    background-color: #333; /* Fondo ligeramente más claro */
-    color: #f5f5f5; /* Texto claro */
-    margin-bottom: 15px; /* Separación entre campos */
+/* Campos del formulario de iniciar sesión */
+.formulario-login .form-control {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
-/* Botón principal */
-.btn-primary {
-    background-color: #32cd32; /* Verde brillante */
-    color: white; /* Texto blanco */
-    font-size: 1rem; /* Tamaño de fuente */
-    padding: 12px 20px; /* Espaciado interno */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Manito al pasar */
-    font-weight: bold; /* Texto en negrita */
-    transition: background-color 0.3s ease; /* Animación suave al pasar */
+/* Botón "Entrar" exclusivo */
+.formulario-login .btn-primary {
+    background-color: #32cd32;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease;
 }
 
-.btn-primary:hover {
-    background-color: #2a8a2a; /* Verde oscuro al pasar */
+.formulario-login .btn-primary:hover {
+    background-color: #2a8a2a;
 }
 
 /* Texto debajo del formulario */
-.muted {
-    color: #ccc; /* Texto gris claro */
-    font-size: 0.9rem; /* Tamaño más pequeño */
+.formulario-login .muted {
+    color: #ccc;
+    font-size: 0.9rem;
 }
 
-.muted a {
-    color: #32cd32; /* Verde brillante */
+.formulario-login .muted a {
+    color: #32cd32;
+    text-decoration: none;
+}
+
+.formulario-login .muted a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .formulario-login {
+        width: 95%; /* Reduce el ancho */
+        padding: 10px;
+    }
+
+    .formulario-login .form-control {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .formulario-login .btn-primary {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario-login {
+        width: 100%; /* Ocupa todo el ancho */
+        padding: 10px;
+    }
+
+    .formulario-login .form-control {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+
+    .formulario-login .btn-primary {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+}
+
+
+
+
+/*Formulario registrarse y contacto*/
+
+/* Formulario exclusivo de registrarse y contacto*/
+.formulario-registrarse {
+    background-color: #222; /* Fondo oscuro */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6); /* Sombra */
+}
+
+/* Campos del formulario de registrarse y contacto*/
+.formulario-registrarse input,
+.formulario-registrarse select,
+.formulario-registrarse textarea {
+    font-size: 18px; /* Tamaño del texto */
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    border: 1px solid #555; /* Bordes oscuros */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #333; /* Fondo oscuro */
+    color: #f5f5f5; /* Texto blanco */
+    margin-bottom: 15px; /* Espaciado entre los campos */
+}
+
+/* Placeholder en los campos contacto y registrarse*/
+.formulario-registrarse input::placeholder,
+.formulario-registrarse select::placeholder,
+.formulario-registrarse textarea::placeholder {
+    color: #aaa; /* Texto gris claro */
+    font-style: italic; /* Texto diferenciado */
+}
+
+/* Etiquetas del formulario registrarse y contacto */
+.formulario-registrarse .form-check-label {
+    color: white; /* Texto blanco */
+    font-size: 1rem; /* Tamaño adecuado */
+    font-weight: bold; /* Negrita */
+}
+
+/* Checkbox en registrarse y contacto*/
+.formulario-registrarse .form-check-input {
+    width: 20px; /* Tamaño del checkbox */
+    height: 20px;
+    border-radius: 50%; /* Forma circular */
+    border: 2px solid #32cd32; /* Bordes verdes */
+    appearance: none; /* Estilo personalizado */
+    cursor: pointer; /* Manito al pasar */
+    background-color: white; /* Fondo inicial */
+}
+
+.formulario-registrarse .form-check-input:checked {
+    background-color: #32cd32; /* Fondo verde al seleccionar */
+    border: 2px solid #f5f5f5; /* Bordes blancos */
+}
+
+/* Botón en registrarse y contacto*/
+.formulario-registrarse button[type="submit"] {
+    background-color: #32cd32; /* Verde brillante */
+    color: white; /* Texto blanco */
+    font-size: 18px; /* Tamaño del texto */
+    padding: 12px 20px; /* Espaciado interno */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Manito al pasar */
+    font-weight: bold; /* Negrita */
+    transition: background-color 0.3s ease; /* Animación al pasar */
+}
+
+/* Encabezados registrarse y contacto*/
+.formulario-registrarse h1,
+.formulario-registrarse h2 {
+    color: #32cd32;
+    font-size: 30px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+}
+
+.formulario-registrarse button[type="submit"]:hover {
+    background-color: #2a8a2a; /* Verde más oscuro */
+}
+
+/* Botón de "Volver al inicio" registrarse y contacto*/
+.formulario-registrarse .btn-primary {
+    background-color: #222; /* Fondo oscuro */
+    border: 1px solid #555; /* Bordes oscuros */
+    color: #32cd32; /* Texto verde */
     text-decoration: none; /* Sin subrayado */
 }
 
-.muted a:hover {
+.formulario-registrarse .btn-primary:hover {
+    background-color: #333; /* Fondo más claro */
     text-decoration: underline; /* Subrayado al pasar */
+}
+
+/* Validación de campos registrarse y contacto*/
+.formulario-registrarse .valid-feedback {
+    color: #32cd32; /* Verde para mensajes válidos */
+}
+
+.formulario-registrarse .invalid-feedback {
+    color: #ff6347; /* Rojo para mensajes inválidos */
+}
+
+
+
+
+
+
+
+
+/* Estilo para el botón "Buscar" espacio que separa */
+.btn-outline-success[type="submit"] {
+    margin-right: 10px; /* Agrega espacio a la derecha del botón */
 }
