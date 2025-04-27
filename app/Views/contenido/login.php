@@ -20,6 +20,6 @@
         </form>
         <a href="#" class="btn btn-primary">Entrar</a>
       </div>
-      <p class="muted text-center">¿Nuevo usario? <a href="<?php echo base_url('registrarse'); ?>" data-bs-toggle="tooltip" data-bs-title="Default tooltip">Registrarse</a></p>
+      <p class="muted text-center">¿Nuevo usuario? <a href="<?php echo base_url('registrarse'); ?>" data-bs-toggle="tooltip" data-bs-title="Default tooltip">Registrarse</a></p>
     </div>
   </section>

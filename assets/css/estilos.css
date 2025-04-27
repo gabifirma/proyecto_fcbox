@@ -437,9 +437,80 @@ h3 {
     background-color: #2a8a2a;
 }
 
-/*para pagina de login*/
-.form-label {
-    color: white;
-    font-size: large;
-    font-weight: bolder;
+
+
+
+
+/* Para formulario login o iniciar sesion*/
+
+/* Contenedor principal */
+.card {
+    background-color: #222; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Header de la tarjeta */
+.card-header {
+    background-color: #333; /* Fondo ligeramente más claro */
+    color: white; /* Texto blanco */
+    font-size: 1.5rem; /* Tamaño de fuente grande */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Centrado */
+    border-bottom: 1px solid #444; /* Borde inferior sutil */
+}
+
+/* Cuerpo de la tarjeta */
+.card-body {
+    background-color: #222; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    padding: 30px; /* Espaciado interno amplio */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Campos del formulario */
+.card-body input {
+    font-size: 1rem; /* Tamaño de fuente cómodo */
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    border: 1px solid #555; /* Borde oscuro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #333; /* Fondo ligeramente más claro */
+    color: #f5f5f5; /* Texto claro */
+    margin-bottom: 15px; /* Separación entre campos */
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: #32cd32; /* Verde brillante */
+    color: white; /* Texto blanco */
+    font-size: 1rem; /* Tamaño de fuente */
+    padding: 12px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Manito al pasar */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s ease; /* Animación suave al pasar */
+}
+
+.btn-primary:hover {
+    background-color: #2a8a2a; /* Verde oscuro al pasar */
+}
+
+/* Texto debajo del formulario */
+.muted {
+    color: #ccc; /* Texto gris claro */
+    font-size: 0.9rem; /* Tamaño más pequeño */
+}
+
+.muted a {
+    color: #32cd32; /* Verde brillante */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.muted a:hover {
+    text-decoration: underline; /* Subrayado al pasar */
 }

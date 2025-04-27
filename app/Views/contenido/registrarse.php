@@ -11,7 +11,7 @@
             <label for="validationCustom02" class="form-label">Apellido</label>
             <input type="text" class="form-control" id="validationCustom02" value="" required>
             <div class="valid-feedback">
-                !Muy bien¡
+                ¡Muy bien!
             </div>
         </div>
         <div class="col-md-4">
