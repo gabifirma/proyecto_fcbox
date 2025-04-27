@@ -18,7 +18,7 @@
 
   </div>
 
-  <div>
+  <div class="formulario-registrarse row g-3 mt-5 needs-validation container-fluid" >
     <h2> <center><br>Contactanos</center></h2>
 
     <form class="row g-3">

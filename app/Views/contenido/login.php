@@ -1,5 +1,5 @@
   <section>
-    <div class="card text-center container-fluid mb-5" style="width: 45rem; margin-top: 5%">
+    <div class="card text-center formulario-login container-fluid mb-5" style="width: 45rem; margin-top: 5%">
       <div class="card-header">
         Iniciar Sesión
       </div>
@@ -20,6 +20,6 @@
         </form>
         <a href="#" class="btn btn-primary">Entrar</a>
       </div>
-      <p class="muted text-center">¿Nuevo usario? <a href="<?php echo base_url('registrarse'); ?>" data-bs-toggle="tooltip" data-bs-title="Default tooltip">Registrarse</a></p>
+      <p class="muted text-center">¿Nuevo usuario? <a href="<?php echo base_url('registrarse'); ?>" data-bs-toggle="tooltip" data-bs-title="Default tooltip">Registrarse</a></p>
     </div>
   </section>
