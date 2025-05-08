@@ -331,3 +331,16 @@
     </div>
   </div>
 </section>
+
+<section>
+  <div class="row container">
+    <div class="col">
+      <a class="nav-link active" href="https://www.facebook.com/?locale=es_LA"><i class="fa-solid fa-chess fa-2xl" style="color: #ef0101;"></i></a>
+    </div>
+    <div class="col">
+      
+        <a class="nav-link active" href="https://www.facebook.com/?locale=es_LA"><button type="button" class="btn btn-primary btn-lg">Acción<br><i class="fa-solid fa-swords fa-2xl" style="color: #d60000;"></i></button></a>
+      
+    </div>
+  </div>
+</section>
