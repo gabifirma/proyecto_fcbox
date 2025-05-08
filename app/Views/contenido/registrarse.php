@@ -25,23 +25,33 @@
             </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <label for="validationCustom03" class="form-check-label">Provincia</label>
+        <div class="col-md-5">
+            <label for="validationCustom03" class="form-check-label">Provincia/Estado</label>
             <input type="text" class="form-control" id="validationCustom03" required>
             <div class="invalid-feedback">
                 Por favor seleccione una provincia válida.
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-5">
             <label for="validationCustom04" class="form-check-label">País</label>
-            <select class="form-select" id="validationCustom04" required>
-            <option selected disabled value="">Elija...</option>
-            <option>Argentina</option>
-            <option>Brasil</option>
-            <option>Uruguay</option>
-            </select>
+            <input type="text" class="form-control" id="validationDefault01" value="" required>
             <div class="invalid-feedback">
-                Por favor seleccione un país válido.
+                Por favor seleccione un país.
+            </div>
+        </div>
+        <div class="col-md-4">
+            
+            <label for="validationCustom04" class="form-check-label">Contraseña</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Debe tener 8 dígitos la contraseña.
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom04" class="form-check-label">Repetir contraseña</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Las contraseñas no coinciden.
             </div>
         </div>
         <div class="col-12">

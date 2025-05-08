@@ -37,19 +37,14 @@
         </div>
       </div>
       <div class="col-md-6">
-        <label for="validationDefault03" class="form-label">Ciudad</label>
+        <label for="validationDefault03" class="form-label">Motivo</label>
         <input type="text" class="form-control" id="validationDefault03" required>
       </div>
       <div class="col-md-3">
         <label for="validationDefault04" class="form-label">País</label>
-        <select class="form-select" id="validationDefault04" required>
-          <option selected disabled value="">Elija</option>
-          <option>Argentina</option>
-          <option>Brasil</option>
-          <option>Uruguay</option>
-        </select>
+        <input type="text" class="form-control" id="validationDefault01" value="" required>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-12">
         <label for="validationDefault05" class="form-label">Mensaje</label>
         <input type="text" class="form-control" id="validationDefault05" required>
       </div>
