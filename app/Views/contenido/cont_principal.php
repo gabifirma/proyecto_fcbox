@@ -332,15 +332,30 @@
   </div>
 </section>
 
-<section>
-  <div class="row container">
+<section class="mt-3 container-xl">
+  <hr style="border-top: 5px solid #32cd32; width: auto;">
+  <div>
+    <h1>Géneros</h1>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-6 g-1 mt-2" id="botones">
     <div class="col">
-      <a class="nav-link active" href="https://www.facebook.com/?locale=es_LA"><i class="fa-solid fa-chess fa-2xl" style="color: #ef0101;"></i></a>
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="fa-solid--chess"></span><br>Estrategia</button></a>
     </div>
     <div class="col">
-      
-        <a class="nav-link active" href="https://www.facebook.com/?locale=es_LA"><button type="button" class="btn btn-primary btn-lg">Acción<br><i class="fa-solid fa-swords fa-2xl" style="color: #d60000;"></i></button></a>
-      
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="lucide--swords"></span><br>Acción</button></a>
+    </div>
+    <div class="col">
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="mdi--compass"></span><br>Aventura</button></a>
+    </div>
+    <div class="col">
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="fa6-solid--gun"></span><br>Disparos</button></a>
+    </div>
+    <div class="col">
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="iconoir--boxing-glove"></span><br>Pelea</button></a>
+    </div>
+    <div class="col">
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="iconoir--soccer-ball"></span><br>Deportes</button></a>
     </div>
   </div>
 </section>
