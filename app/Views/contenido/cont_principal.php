@@ -37,6 +37,7 @@
         <div class="col">
           <img src="assets/img/juego8.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalUno">
@@ -68,6 +69,7 @@
         <div class="col">
           <img src="assets/img/juego14.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDos">
@@ -98,6 +100,7 @@
         <div class="col">
           <img src="assets/img/juego7.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTres">
@@ -145,6 +148,7 @@
         <div class="col">
           <img src="assets/img/juego7.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCuatro">
@@ -179,6 +183,7 @@
         <div class="col">
           <img src="assets/img/juego15.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCinco">
@@ -208,6 +213,7 @@
         <div class="col">
           <img src="assets/img/juego17.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSeis">
@@ -247,6 +253,7 @@
         <div class="col">
           <img src="assets/img/nuevo1.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSiete">
@@ -271,11 +278,13 @@
         </div>
       </div>
     </div>
+
     <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
         <div class="col">
           <img src="assets/img/nuevo2.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalOcho">
@@ -300,11 +309,13 @@
         </div>
       </div>
     </div>
+
     <div class="card mb-5 mx-auto" style="max-width: 350px;">
       <div class="row g-0">
         <div class="col">
           <img src="assets/img/nuevo3.jpg" class="img-fluid rounded-start" alt="...">
         </div>
+        <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNueve">
@@ -340,22 +351,22 @@
 
   <div class="row row-cols-1 row-cols-md-6 g-1 mt-2" id="botones">
     <div class="col">
-      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="fa-solid--chess"></span><br>Estrategia</button></a>
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-outline-success btn-lg"><span class="fa-solid--chess"></span><br>Estrategia</button></a>
     </div>
     <div class="col">
-      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="lucide--swords"></span><br>Acción</button></a>
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-outline-success btn-lg"><span class="lucide--swords"></span><br>Acción</button></a>
     </div>
     <div class="col">
-      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="mdi--compass"></span><br>Aventura</button></a>
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-outline-success btn-lg"><span class="mdi--compass"></span><br>Aventura</button></a>
     </div>
     <div class="col">
-      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="fa6-solid--gun"></span><br>Disparos</button></a>
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-outline-success btn-lg"><span class="fa6-solid--gun"></span><br>Disparos</button></a>
     </div>
     <div class="col">
-      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="iconoir--boxing-glove"></span><br>Pelea</button></a>
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-outline-success btn-lg"><span class="iconoir--boxing-glove"></span><br>Pelea</button></a>
     </div>
     <div class="col">
-      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-primary btn-lg"><span class="iconoir--soccer-ball"></span><br>Deportes</button></a>
+      <a href="<?php echo base_url('galeria'); ?>"><button type="button" class="btn btn-outline-success btn-lg"><span class="iconoir--soccer-ball"></span><br>Deportes</button></a>
     </div>
   </div>
 </section>
