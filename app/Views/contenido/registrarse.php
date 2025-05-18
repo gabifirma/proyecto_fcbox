@@ -1,7 +1,9 @@
 <section>
 
-    <form class="formulario-registrarse row g-3 mt-5 needs-validation container-fluid" novalidate>
-    <h2> <center><br>Registrarse</center></h2>
+    <form action="<?php echo base_url('registro_usuario') ?>" method="post" autocomplete="off" class="formulario-registrarse row g-3 mt-5 needs-validation container-fluid" novalidate>
+        
+        <h2> <center><br>Registrarse</center></h2>
+        
         <div class="col-md-4">
             <label for="validationCustom01" class="form-check-label">Nombre</label>
             <input type="text" class="form-control" id="validationCustom01" value="" required>

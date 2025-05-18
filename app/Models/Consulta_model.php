@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class UserModel extends Model
 {
-    protected $table      = 'users';
+    protected $table      = 'mensajes';
     protected $primaryKey = 'id_mensaje';
 
     protected $useAutoIncrement = true;
@@ -14,7 +14,7 @@ class UserModel extends Model
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['nombre_mensaje', 'apellido_mensaje', 'correo_mensaje', 'motivo_mensaje', 'pais_mensaje', 'mensaje_mensaje'];
+    protected $allowedFields = ['nombre_mensaje', 'apellido_mensaje', 'correo_mensaje', 'motivo_mensaje', 'mensaje_mensaje'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
@@ -30,16 +30,4 @@ class UserModel extends Model
     protected $validationRules      = [];
     protected $validationMessages   = [];
     protected $skipValidation       = false;
-    protected $cleanValidationRules = true;
-
-    // Callbacks
-    protected $allowCallbacks = true;
-    protected $beforeInsert   = [];
-    protected $afterInsert    = [];
-    protected $beforeUpdate   = [];
-    protected $afterUpdate    = [];
-    protected $beforeFind     = [];
-    protected $afterFind      = [];
-    protected $beforeDelete   = [];
-    protected $afterDelete    = [];
 }

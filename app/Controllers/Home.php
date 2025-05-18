@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\Consulta_model;
+
 class Home extends BaseController
 {
     public function index(): string

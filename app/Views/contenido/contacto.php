@@ -20,45 +20,54 @@
 
   <div class="formulario-registrarse row g-3 mt-5 needs-validation container-fluid" >
     <h2> <center><br>Contactanos</center></h2>
+    
+    <?php if (!empty($validation)) : ?>
+      <div class="alert alert-danger" role="alert">
+        <ul>
+          <?php foreach ($validation as $error): ?>
+            <li><?= esc ($error) ?></li>
+          <?php endforeach?>
+        </ul>
+      </div>
+    <?php endif ?>
 
-    <form class="row g-3">
+    <?php if(session('mensaje_consulta')){
+      echo session('mensaje_consulta');
+    } ?>
+
+    <form action="<?php echo base_url('consulta') ?>" method="post" autocomplete="off">
+      
       <div class="col-md-4">
         <label for="validationDefault01" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="validationDefault01" value="" required>
+        <?php echo form_input(['name' => 'nombre', 'id' => 'nombre', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'Ingrese nombre', 'value' => set_value('nombre')]); ?>
       </div>
+      
       <div class="col-md-4">
         <label for="validationDefault02" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="validationDefault02" value="" required>
+        <?php echo form_input(['name' => 'apellido', 'id' => 'apellido', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'Ingrese apellido', 'value' => set_value('apellido')]); ?>
       </div>
+      
       <div class="col-md-4">
         <label for="validationDefaultUsername" class="form-label">Correo electrónico</label>
-        <div class="input-group">
-          <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
-        </div>
+        <?php echo form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'name@example.com', 'value' => set_value('nombre')]); ?>
       </div>
+      
       <div class="col-md-6">
         <label for="validationDefault03" class="form-label">Motivo</label>
-        <input type="text" class="form-control" id="validationDefault03" required>
+        <?php echo form_input(['name' => 'motivo', 'id' => 'motivo', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'Ingrese motivo', 'value' => set_value('motivo')]); ?>
       </div>
-      <div class="col-md-3">
-        <label for="validationDefault04" class="form-label">País</label>
-        <input type="text" class="form-control" id="validationDefault01" value="" required>
-      </div>
+      
       <div class="col-md-12">
-        <label for="validationDefault05" class="form-label">Mensaje</label>
-        <input type="text" class="form-control" id="validationDefault05" required>
+        <label for="validationDefault05" class="form-label">Consulta</label>
+        <?php echo form_input(['name' => 'consulta', 'id' => 'consulta', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'Ingrese consulta', 'value' => set_value('consulta')]); ?>
       </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-          <label class="form-check-label" for="invalidCheck2">
-            Aceptar términos y condiciones
-          </label>
-        </div>
+      
       </div>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Enviar formulario</button>
+      <div class="col-12 mt-4">
+        <?php echo form_submit('Consulta', 'Enviar formulario', "class='btn btn-primary' type='submit'"); ?>
       </div>
-    </form>
+      
+  </form>
+  
   </div>
 </section>
