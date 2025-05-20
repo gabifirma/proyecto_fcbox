@@ -17,4 +17,4 @@ $routes->get('contacto', 'Home::contacto');
 $routes->post('consulta', 'Usuarios_controller::añadir_consulta');
 
 $routes->get('registrarse', 'Home::registrarse');
-$routes->post('registro_cliente', 'Clientes_controller::add_cliente');
+$routes->post('registro_cliente', 'Clientes_controller::añadir_cliente');
