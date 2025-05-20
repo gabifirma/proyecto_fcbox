@@ -43,11 +43,11 @@ class Usuarios_controller extends BaseController
 
         if ( $validation->withRequest($request)->run() ) {
             $data = [
-                'mensaje_nombre' => $request->getPost('nombre'),
-                'mensaje_apellido' => $request->getPost('apellido'),
-                'mensaje_correo' => $request->getPost('correo'),
-                'mensaje_motivo' => $request->getPost('motivo'),
-                'mensaje_consulta' => $request->getPost('consulta'),
+                'nombre_mensaje' => $request->getPost('nombre'),
+                'apellido_mensaje' => $request->getPost('apellido'),
+                'correo_mensaje' => $request->getPost('correo'),
+                'motivo_mensaje' => $request->getPost('motivo'),
+                'consulta_mensaje' => $request->getPost('consulta'),
             ];
 
             $consulta = new Consulta_model();
