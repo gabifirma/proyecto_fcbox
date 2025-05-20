@@ -4,6 +4,18 @@
         
         <h2> <center><br>Registrarse</center></h2>
         
+        <?php if (isset($validation)) : ?>
+            <div class="alert alert-danger" role="alert">
+                <?= $validation->listErrors(); ?>
+            </div>
+        <?php endif; ?>
+
+        <?php if (session('mensaje_consulta')) : ?>
+            <div class="alert alert-success" role="alert">
+                <?= session('mensaje_consulta'); ?>
+            </div>
+        <?php endif; ?>
+
         <div class="col-md-5">
             <label for="nombre" class="form-check-label">Nombre</label>
             <input type="text" class="form-control" id="validationCustom01" value="" required>
