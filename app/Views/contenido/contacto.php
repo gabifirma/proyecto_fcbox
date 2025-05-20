@@ -21,44 +21,42 @@
   <div class="formulario-registrarse row g-3 mt-5 needs-validation container-fluid" >
     <h2> <center><br>Contactanos</center></h2>
     
-    <?php if (!empty($validation)) : ?>
+    <?php if (isset($validation)) : ?>
       <div class="alert alert-danger" role="alert">
-        <ul>
-          <?php foreach ($validation as $error): ?>
-            <li><?= esc ($error) ?></li>
-          <?php endforeach?>
-        </ul>
+        <?= $validation->listErrors(); ?>
       </div>
-    <?php endif ?>
+    <?php endif; ?>
 
-    <?php if(session('mensaje_consulta')){
-      echo session('mensaje_consulta');
-    } ?>
+    <?php if (session('mensaje_consulta')) : ?>
+      <div class="alert alert-success" role="alert">
+        <?= session('mensaje_consulta'); ?>
+      </div>
+    <?php endif; ?>
 
     <form action="<?php echo base_url('consulta') ?>" method="post" autocomplete="off">
       
       <div class="col-md-4">
-        <label for="validationDefault01" class="form-label">Nombre</label>
+        <label for="nombre" class="form-label">Nombre</label>
         <?php echo form_input(['name' => 'nombre', 'id' => 'nombre', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'Ingrese nombre', 'value' => set_value('nombre')]); ?>
       </div>
       
       <div class="col-md-4">
-        <label for="validationDefault02" class="form-label">Apellido</label>
+        <label for="apellido" class="form-label">Apellido</label>
         <?php echo form_input(['name' => 'apellido', 'id' => 'apellido', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'Ingrese apellido', 'value' => set_value('apellido')]); ?>
       </div>
       
       <div class="col-md-4">
-        <label for="validationDefaultUsername" class="form-label">Correo electrónico</label>
+        <label for="correo" class="form-label">Correo electrónico</label>
         <?php echo form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'name@example.com', 'value' => set_value('nombre')]); ?>
       </div>
       
       <div class="col-md-6">
-        <label for="validationDefault03" class="form-label">Motivo</label>
+        <label for="motivo" class="form-label">Motivo</label>
         <?php echo form_input(['name' => 'motivo', 'id' => 'motivo', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'Ingrese motivo', 'value' => set_value('motivo')]); ?>
       </div>
       
       <div class="col-md-12">
-        <label for="validationDefault05" class="form-label">Consulta</label>
+        <label for="consulta" class="form-label">Consulta</label>
         <?php echo form_input(['name' => 'consulta', 'id' => 'consulta', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'Ingrese consulta', 'value' => set_value('consulta')]); ?>
       </div>
       

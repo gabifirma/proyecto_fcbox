@@ -51,13 +51,13 @@ class Usuarios_controller extends BaseController
             ];
 
             $consulta = new Consulta_model();
-            $consulta = insert($data);
+            $consulta->insert($data);
 
             return redirect() -> route('contacto')->with('mensaje_consulta', 'Su consulta se envió exitosamente!');
         }else{
             $data['titulo'] = 'Contacto';
             $data['validation'] = $validation->getErrors();
-            return view('practico/header_view').view('contenido/contacto').view('practico/footer_view');
+            return view('practico/header_view').view('contenido/contacto', ['validation' => $validation]).view('practico/footer_view');
         }
     }
 }
