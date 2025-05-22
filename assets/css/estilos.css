@@ -208,23 +208,52 @@ footer p {
 
 
 /*configuraciones para cards de galeria o catalogo*/
-#card1 .card {
+.card {
     background-color: rgb(255, 253, 253);
     align-self: center;
     border-radius: 16px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
-#card1 .card .capa {
+.card .capa {
     position: absolute;
+    border-radius: 16px;
     top: 0;
     width: 100%;
     height: 100%;
     background: rgba(2, 194, 28, 0.7);
     transition: all 500ms ease-out;
+    text-align: center;
     opacity: 0;
     visibility: hidden;
-    text-align: center;
+}
+
+.card:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover>.capa h4 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.card:hover>img {
+    transform: scale(0.9);
+}
+
+.card .capa h4 {
+    color: white;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.card .capa p {
+    color: white;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+    margin-bottom: 120px;
 }
 
 .card-title {
@@ -237,18 +266,7 @@ footer p {
     width: 333px;
     height: 500px;
     object-fit: cover;
-}
-
-/*configuraciones para cards de principal*/
-#card2 .card {
-    background-color: white;
-    align-self: center;
-    max-width: 340px;
-
-    a {
-        margin-left: 40%;
-        margin-top: 0.1%;
-    }
+    transition: all 500ms ease-out;
 }
 
 /*configuraciones para cards de comercializacion*/
