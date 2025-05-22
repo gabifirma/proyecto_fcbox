@@ -36,8 +36,8 @@
       <div class="card">
         <img src="assets/img/juego8.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>Halo Infinite</strong></h4>
+          <p><strong>Desarrollador:</strong> 343 Industries</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -47,8 +47,8 @@
       <div class="card">
         <img src="assets/img/juego14.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>Among Us</strong></h4>
+          <p><strong>Desarrollador:</strong> Innersloth</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -58,8 +58,8 @@
       <div class="card">
         <img src="assets/img/juego7.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>FIFA 24</strong></h4>
+          <p><strong>Desarrollador:</strong> EA Vancouver</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -81,8 +81,8 @@
       <div class="card">
         <img src="assets/img/juego7.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>FIFA 24</strong></h4>
+          <p><strong>Desarrollador:</strong> EA Vancouver</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -92,8 +92,8 @@
       <div class="card">
         <img src="assets/img/juego15.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>Battlefield 4</strong></h4>
+          <p><strong>Desarrollador:</strong> DICE</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -103,8 +103,8 @@
       <div class="card">
         <img src="assets/img/juego17.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>Doom</strong></h4>
+          <p><strong>Desarrollador:</strong> id Software</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -125,8 +125,8 @@
       <div class="card">
         <img src="assets/img/nuevo1.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>Batman: Gotham Knigths</strong></h4>
+          <p><strong>Desarrollador:</strong> WB Games Montréal</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -136,8 +136,8 @@
       <div class="card">
         <img src="assets/img/nuevo2.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>Age of Empires IV: Anniversary Edition</strong></h4>
+          <p><strong>Desarrollador:</strong> Relic Entertainment</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -147,8 +147,8 @@
       <div class="card">
         <img src="assets/img/nuevo3.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4>hola gabi</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h4><strong>Mortal Kombatt 11</strong></h4>
+          <p><strong>Desarrollador:</strong> NetherRealm Studios</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
