@@ -2,7 +2,7 @@
 namespace App\Controllers;
 
 use App\Models\Consulta_model;
-use App\Models\Usuarios_model;
+use App\Models\Personas_model;
 
 class Usuarios_controller extends BaseController
 {
@@ -57,7 +57,80 @@ class Usuarios_controller extends BaseController
         }else{
             $data['titulo'] = 'Contacto';
             $data['validation'] = $validation->getErrors();
-            return view('practico/header_view').view('contenido/contacto', ['validation' => $validation]).view('practico/footer_view');
+            return view('practico/header_view').view('contenido/nav_visitante').view('contenido/contacto', ['validation' => $validation]).view('practico/footer_view');
         }
+    }
+
+    public function buscar_usuario(){
+        $validation = \Config\Services::validation();
+        $request = \Config\Services::request();
+        $session = session();
+
+        $validation->setRules(
+            [
+                'correo' => 'required|valid_email|is_unique[personas.persona_mail]',
+                'password' => 'required|min_length[8]|matches[personas.persona_password]',
+            ],
+            [   //Errores
+                'correo' => [
+                    'required' => 'El correo electrónico es obligatorio',
+                    'valid_mail' => 'La dirección de correo no está registrada',
+                    'is_unique' => 'Existe otro cliente con esa cuenta',
+                ],
+                'password' => [
+                    'required' => 'La contraseña es obligatoria',
+                    'min_length' => 'La contraseña es incorrecta, debe tener mínimo 8 carácteres',
+                    'matches' => 'La contraseña es incorrecta',
+                ],
+            ]
+        );
+
+        if ( $validation->withRequest($request)->run() ) {
+            $data['titulo'] = 'Login';
+            $data['validation'] = $validation->getErrors();
+
+            return view('practico/header_view').view('contenido/nav_visitante').view('contenido/login').view('practico/footer_view');
+        }
+
+        $mail = $_POST('correo');
+        $pass = $_POST('pass');
+
+        $user_Model = new Personas_model();
+
+        $user = $user_Model->where('persona_mail', $mail)->where('persona_estado', 1)->first();
+
+        if($user && password_verify($pass, $user['persona_password'])){
+            $data = [
+                'id' => $user['id_persona'],
+                'nombre' => $user['persona_nombre'],
+                'apellido' => $user['persona_apellido'],
+                'perfil' => $user['perfil_id'],
+                'login' => TRUE,
+            ];
+            $session->set($data);
+            switch($user['perfil_id']){
+                case '1': return redirect()->route('user_admin');
+                break;
+                case '2': return redirect()->route('/');
+                break;
+            }
+        }else{
+            return redirect()->route('login_cliente')->with('mensaje', 'Usuario y/o contraseña incorrecto');
+        }
+    }
+
+    public function cerrar_sesion(){
+    
+        $session = session();
+        $session->destroy();
+        return redirect()->route('login_cliente');
+    
+    }
+
+    public function admin(){
+
+        $data['titulo'] = 'Index';
+        return view('practico/header_view').view('contenido/nav_admin').view('Backend/contenido_admin').view('practico/footer_view');
+    
     }
 }

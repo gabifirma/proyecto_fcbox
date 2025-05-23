@@ -47,7 +47,7 @@
       
       <div class="col-md-4">
         <label for="correo" class="form-label">Correo electrónico</label>
-        <?php echo form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'name@example.com', 'value' => set_value('nombre')]); ?>
+        <?php echo form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'text', 'class' => 'form-control', 'placeholder' => 'name@example.com', 'value' => set_value('correo')]); ?>
       </div>
       
       <div class="col-md-6">
@@ -64,8 +64,8 @@
       <div class="col-12 mt-4">
         <?php echo form_submit('Consulta', 'Enviar formulario', "class='btn btn-primary' type='submit'"); ?>
       </div>
-      
-  </form>
+    
+    </form>
   
   </div>
 </section>
