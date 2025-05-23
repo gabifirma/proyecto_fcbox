@@ -36,8 +36,9 @@
       <div class="card">
         <img src="assets/img/juego8.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>Halo Infinite</strong></h4>
+          <h3><strong>Halo Infinite</strong></h3><br><br>
           <p><strong>Desarrollador:</strong> 343 Industries</p>
+          <p><strong>Publicado por:</strong> Xbox Game Studios</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -47,8 +48,9 @@
       <div class="card">
         <img src="assets/img/juego14.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>Among Us</strong></h4>
+          <h3><strong>Among Us</strong></h3><br><br>
           <p><strong>Desarrollador:</strong> Innersloth</p>
+          <p><strong>Publicado por:</strong> Innersloth</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -58,8 +60,9 @@
       <div class="card">
         <img src="assets/img/juego7.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>FIFA 24</strong></h4>
+          <h3><strong>FIFA 24</strong></h3><br>
           <p><strong>Desarrollador:</strong> EA Vancouver</p>
+          <p><strong>Publicado por:</strong> Electronic Arts</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -81,8 +84,9 @@
       <div class="card">
         <img src="assets/img/juego7.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>FIFA 24</strong></h4>
+          <h4><strong>FIFA 24</strong></h4><br><br>
           <p><strong>Desarrollador:</strong> EA Vancouver</p>
+          <p><strong>Publicado por:</strong> Electronic Arts</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -92,8 +96,9 @@
       <div class="card">
         <img src="assets/img/juego15.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>Battlefield 4</strong></h4>
+          <h3><strong>Battlefield 4</strong></h3><br><br>
           <p><strong>Desarrollador:</strong> DICE</p>
+          <p><strong>Publicado por:</strong> Electronic Arts</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -103,8 +108,9 @@
       <div class="card">
         <img src="assets/img/juego17.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>Doom</strong></h4>
+          <h3><strong>Doom</strong></h3><br><br>
           <p><strong>Desarrollador:</strong> id Software</p>
+          <p><strong>Publicado por:</strong> Bethesda Softworks</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -125,8 +131,9 @@
       <div class="card">
         <img src="assets/img/nuevo1.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>Batman: Gotham Knigths</strong></h4>
+          <h3><strong>Gotham Knigths</strong></h3><br><br>
           <p><strong>Desarrollador:</strong> WB Games Montréal</p>
+          <p><strong>Publicado por:</strong> WB Games</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -136,8 +143,9 @@
       <div class="card">
         <img src="assets/img/nuevo2.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>Age of Empires IV: Anniversary Edition</strong></h4>
+          <h3><strong>Age of Empires IV: Anniversary Edition</strong></h3><br><br>
           <p><strong>Desarrollador:</strong> Relic Entertainment</p>
+          <p><strong>Publicado por:</strong> Xbox Game Studios</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
@@ -147,8 +155,9 @@
       <div class="card">
         <img src="assets/img/nuevo3.jpg" class="img-fluid card-img-top" alt="...">
         <div class="capa">
-          <h4><strong>Mortal Kombatt 11</strong></h4>
+          <h3><strong>Mortal Kombatt 11</strong></h3><br><br>
           <p><strong>Desarrollador:</strong> NetherRealm Studios</p>
+          <p><strong>Publicado por:</strong> WB Games</p>
         </div>
         <a href="<?php echo base_url('galeria'); ?>" class="stretched-link"></a>
       </div>
